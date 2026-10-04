@@ -17,7 +17,6 @@ pipeline {
                 . venv/bin/activate
                 pip install -r requirements.txt
                 python3 -m py_compile app.py
-                '
                 '''
             }
         }
